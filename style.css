@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    color: red;
+    margin: 20px;
+}
+
+.hero {
+    position: relative;
+    height: 80vh;
+    background: url("img/fondo.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, black 10%, transparent 60%);
+}
+
+.content {
+    position: relative;
+    margin-left: 50px;
+    max-width: 500px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.episodios {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.episodios img {
+    width: 180px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.episodios img:hover {
+    transform: scale(1.1);
+}
