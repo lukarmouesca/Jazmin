@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reproduciendo...</title>
+<link rel="stylesheet" href="player.css">
+</head>
+<body>
+
+<div class="player-container">
+    <video id="video" controls autoplay>
+        <source src="capitulo1.mp4" type="video/mp4">
+        Tu navegador no soporta video.
+    </video>
+
+    <button class="volver" onclick="volver()">← Volver</button>
+</div>
+
+<script>
+function volver(){
+    window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
